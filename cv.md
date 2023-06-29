@@ -19,7 +19,7 @@ I have worked for eight years at a legal company specializing in bankruptcy as a
 # Code example:
 Some text
 # Work expirience:
-* [**CV Progect**](https://github.com/belosnezhie/rsschool-cv)
+* [**CV Progect**](https://github.com/belosnezhie/rsschool-cv/blob/gh-pages/cv.md?plain=1)
   * Used technologies:
     * Markdoun
     * Git
