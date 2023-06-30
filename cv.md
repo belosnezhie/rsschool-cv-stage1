@@ -17,7 +17,11 @@ I have worked for eight years at a legal company specializing in bankruptcy as a
 * JavaScript (Basics)
 * VS Code
 # Code example:
-Some text
+```js
+function multiply(a, b){
+  return a * b
+}
+```
 # Work expirience:
 * [**CV Progect**](https://github.com/belosnezhie/rsschool-cv/blob/gh-pages/cv.md?plain=1)
   * Used technologies:
