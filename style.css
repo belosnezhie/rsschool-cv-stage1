@@ -14,3 +14,26 @@ body {
     height:100%;
     object-fit: cover;
   }
+
+  .container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+  }
+
+  .nav-list {
+    display: flex; /*разместить все элементы навигации в строку*/
+    justify-content: center; /*разместить по центру*/
+    align-items: center; /*выровнять по центру по высоте*/
+  }
+
+  .nav-item {
+    margin: 8px;
+    list-style-type: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
