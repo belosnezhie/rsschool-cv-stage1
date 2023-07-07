@@ -1,5 +1,14 @@
 body {
     font-family: 'Lora', serif;
+    background-color: #EFEFEF
+}
+
+.container-centered {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+    background-color: #B0BCD4;
 }
 
 .circle-image {
@@ -8,6 +17,7 @@ body {
     overflow: hidden;
     width: 250px;
     height: 250px;
+    outline: 6px solid #ffffff
 }
 .circle-image img{
     width:100%;
@@ -19,7 +29,16 @@ body {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 1150px;
+  }
+
+  .centered-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .centered-text {
+    text-align:center
   }
 
   .nav-list {
@@ -33,6 +52,10 @@ body {
     list-style-type: none;
   }
 
+  .nav-link {
+    text-decoration: none;
+  }
+
   .footer {
     display: flex;
     justify-content: space-between;
@@ -40,12 +63,25 @@ body {
 
   .main-container {
     display: flex;
+    background-color: #FFFFFF
   }
 
   .left-column {
     margin: 40px 40px 40px 0px;
+    padding: 30px;
   }
 
   .right-column {
     margin: 40px 0px 40px 40px;
+    padding: 30px;
   }
+
+  .line-item {
+    font-weight: 700;
+  }
+
+  .additional-item {
+    font-weight: lighter;
+  }
+
+  

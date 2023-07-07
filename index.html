@@ -10,22 +10,25 @@
       <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
    </head>
    <body>
+    <div class="container-centered">
       <header>
          <div class="container">
-            <span class="circle-image">
-            <img src="./assets/img/CV-image.jpg" alt="my photo" />
-            </span>
-            <h1>Mariia Treier</h1>
-            <h3>Junior Frontend Developer</h3>
+            <div class="centered-image">
+                <span class="circle-image">
+                    <img src="./assets/img/CV-image.jpg" alt="my photo" />
+                </span>
+            </div>
+            <h1 class="centered-text">Mariia Treier</h1>
+            <h3 class="centered-text">Junior Frontend Developer</h3>
             <nav>
                <ul class="nav-list">
-                  <li class="nav-item"><a href="#Contacts">Contacts</a></li>
-                  <li class="nav-item"><a href="#Profile">Profile</a></li>
-                  <li class="nav-item"><a href="#Skills">Skills</a></li>
-                  <li class="nav-item"><a href="#Code example">Code example</a></li>
-                  <li class="nav-item"><a href="#Work expirience">Work expirience</a></li>
-                  <li class="nav-item"><a href="#Education and courses">Education and courses</a></li>
-                  <li class="nav-item"><a href="#Languages">Languages</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Contacts">Contacts</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Profile">Profile</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Code example">Code example</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Work expirience">Work expirience</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Education and courses">Education and courses</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#Languages">Languages</a></li>
                </ul>
             </nav>
          </div>
@@ -36,10 +39,10 @@
                <section class="section" id="Contacts">
                   <h2>Contacts:</h2>
                   <ul>
-                     <li>GitHub: <a href="https://github.com/belosnezhie">belosnezhie</a></li>
-                     <li>E-mail: mariatraier@gmail.com</li>
-                     <li>Phone: +385958014913</li>
-                     <li>Location: Zagreb, Croatia</li>
+                     <li> <span class="line-item">GitHub:</span> <a href="https://github.com/belosnezhie">belosnezhie</a></li>
+                     <li><span class="line-item">E-mail:</span> mariatraier@gmail.com</li>
+                     <li><span class="line-item">Phone:</span> +385958014913</li>
+                     <li><span class="line-item">Location:</span> Zagreb, Croatia</li>
                   </ul>
                </section>
                <section class="section" id="Education and courses">
@@ -50,15 +53,15 @@
                   <h2>Languages:</h2>
                   <ul>
                      <li>
-                        <p>English</p>
+                        <p class="line-item">English</p>
                         <p>Intermediate/Upper-intermediate</p>
                      </li>
                      <li>
-                        <p>Russian</p>
+                        <p class="line-item">Russian</p>
                         <p>Native</p>
                      </li>
                      <li>
-                        <p>Croatian</p>
+                        <p class="line-item">Croatian</p>
                         <p>Beginner</p>
                      </li>
                   </ul>
@@ -93,11 +96,11 @@
                <section class="section" id="Work expirience">
                   <h2>Work expirience:</h2>
                   <a href="https://belosnezhie.github.io/rsschool-cv/">CV Progect</a>
-                  <h4>Used technologies:</h4>
+                  <h4 class="additional-item">Used technologies:</h4>
                   <ul>
-                     <li>HTML</li>
-                     <li>CSS</li>
-                     <li>Git</li>
+                     <li class="additional-item">HTML</li>
+                     <li class="additional-item">CSS</li>
+                     <li class="additional-item">Git</li>
                   </ul>
                </section>
             </div>
@@ -114,5 +117,6 @@
             </div>
          </div>
       </footer>
-   </body>
+    </div>
+    </body>
 </html>
