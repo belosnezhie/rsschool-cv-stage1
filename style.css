@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     width: 250px;
     height: 250px;
-    outline: 6px solid #ffffff
+    outline: 8px solid #ffffff;
 }
 .circle-image img{
     width:100%;
@@ -29,12 +29,16 @@ body {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    width: 1150px;
+    width: 1250px;
   }
 
+.header-container {
+    padding-top: 30px;
+}
   .centered-image {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .centered-text {
@@ -57,23 +61,24 @@ body {
   }
 
   .footer {
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .main-container {
     display: flex;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
   }
 
   .left-column {
-    margin: 40px 40px 40px 0px;
-    padding: 30px;
+    padding: 40px;
+    background-color: #DCE8F3;
   }
 
   .right-column {
-    margin: 40px 0px 40px 40px;
-    padding: 30px;
+    padding: 40px;
   }
 
   .line-item {
