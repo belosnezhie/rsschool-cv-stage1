@@ -1,6 +1,6 @@
 body {
     font-family: 'Lora', serif;
-    background-color: #EFEFEF
+    background-color: #EFEFEF;
 }
 
 .container-centered {
@@ -19,6 +19,7 @@ body {
     height: 250px;
     outline: 8px solid #ffffff;
 }
+
 .circle-image img{
     width:100%;
     height:100%;
@@ -42,13 +43,18 @@ body {
   }
 
   .centered-text {
-    text-align:center
+    text-align:center;
+  }
+
+  .block {
+    height: 4px;
+    background-color: #FFFFFF;
   }
 
   .nav-list {
-    display: flex; /*разместить все элементы навигации в строку*/
-    justify-content: center; /*разместить по центру*/
-    align-items: center; /*выровнять по центру по высоте*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav-item {
@@ -58,6 +64,14 @@ body {
 
   .nav-link {
     text-decoration: none;
+  }
+
+  .languages {
+    padding-top: 80px;
+  }
+
+  .high-item{
+    margin: 14px 0px 14px 0px;
   }
 
   .footer {
@@ -80,6 +94,14 @@ body {
   .right-column {
     padding: 40px;
   }
+
+  .inner-column {
+    display: flex;
+  }
+
+  .right-inner-column {
+    padding-left: 80px;
+  }  
 
   .line-item {
     font-weight: 700;
