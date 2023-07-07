@@ -1,10 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>cv</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container-centered">
+         <header>
+            <div class="container header-container">
+               <div class="centered-image">
+                  <span class="circle-image">
+                  <img src="./assets/img/CV-image.jpg" alt="my photo" />
+                  </span>
+               </div>
+               <h1 class="centered-text">Maria Treier</h1>
+               <h3 class="centered-text">Junior Frontend Developer</h3>
+               <div class="block"></div>
+               <nav>
+                  <ul class="nav-list">
+                     <li class="nav-item"><a class="nav-link" href="#Contacts">Contacts</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#Profile">Profile</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#Code example">Code example</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#Work expirience">Work expirience</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#Education and courses">Education and courses</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#Languages">Languages</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </header>
+         <main>
+            <div class="container main-container">
+               <div class="left-column">
+                  <section class="section" id="Contacts">
+                     <h2>Contacts:</h2>
+                     <ul>
+                        <li class="high-item"> <span class="line-item">GitHub:</span> <a href="https://github.com/belosnezhie">belosnezhie</a></li>
+                        <li class="high-item"><span class="line-item">E-mail:</span> mariatraier@gmail.com</li>
+                        <li class="high-item"><span class="line-item">Phone:</span> +385958014913</li>
+                        <li class="high-item"><span class="line-item">Location:</span> Zagreb, Croatia</li>
+                     </ul>
+                  </section>
+                  <section class="section languages" id="Languages">
+                     <h2>Languages:</h2>
+                     <ul>
+                        <li>
+                           <p class="line-item">English</p>
+                           <p>Intermediate/Upper-intermediate</p>
+                        </li>
+                        <li>
+                           <p class="line-item">Russian</p>
+                           <p>Native</p>
+                        </li>
+                        <li>
+                           <p class="line-item">Croatian</p>
+                           <p>Beginner</p>
+                        </li>
+                     </ul>
+                  </section>
+               </div>
+               <div class="right-column">
+                  <section class="section" id="Profile">
+                     <h2>Profile:</h2>
+                     <p>I have worked for eight years at a legal company specializing in bankruptcy as a litigation lawyer. Over the past four years, I have independently managed an average of 10 projects at the same time. My experience has shaped soft skills such as analytical thinking, enabling me to analyze complex situations and find solutions. Additionally, I have developed communication skills through working with clients and collaborating as a team member. I possess critical thinking, strategic thinking, and time management skills.</p>
+                     <p>Being proactive in acquiring new knowledge and developing new skills, I have decided to try myself in this new profession of front-end engineering. Front-end development offers broad opportunities for self-improvement, allows for the expression of creativity, and provides the satisfaction of seeing the results of one’s work, which I find appealing. I believe that my desire to acquire new skills and problem-solving abilities will help me become a proficient developer.</p>
+                  </section>
+                  <section class="section" id="Skills">
+                     <h2>Skills:</h2>
+                     <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>GIT</li>
+                        <li>JavaScript (Basics)</li>
+                        <li>VS Code</li>
+                     </ul>
+                  </section>
+                  <div class="inner-column">
+                     <div class="left-inner-column">
+                        </section>
+                        <section class="section" id="Work expirience">
+                           <h2>Work expirience:</h2>
+                           <a href="https://belosnezhie.github.io/rsschool-cv/">CV Progect</a>
+                           <h4 class="additional-item">Used technologies:</h4>
+                           <ul>
+                              <li class="additional-item">HTML</li>
+                              <li class="additional-item">CSS</li>
+                              <li class="additional-item">Git</li>
+                           </ul>
+                        </section>
+                     </div>
+                     <div class="right-inner-column">
+                        <section class="section" id="Education and courses">
+                           <h2>Education and courses:</h2>
+                           <p><span class="line-item">In progress: </span>RS Schools Course «JavaScript/Front-end. Stage 0»</p>
+                        </section>
+                        <section class="section" id="Code example">
+                           <h2>Code example:</h2>
+                           <code>
+                              <pre>
+function multiply(a, b){
+    return a * b
+}
+                          </pre>
+                           </code>
+                        </section>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+         <footer>
+            <div class="container">
+               <div class="footer">
+                  <a href="https://github.com/belosnezhie">My GitHub</a>
+                  <p>2023</p>
+                  <a href="https://rs.school/js/">
+                  <img src="https://rs.school/images/rs_school_js.svg" alt="RSS logo" width="68" height="48">
+                  </a>
+               </div>
+            </div>
+         </footer>
+      </div>
+   </body>
 </html>
